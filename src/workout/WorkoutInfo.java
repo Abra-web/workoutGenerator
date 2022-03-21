@@ -23,9 +23,6 @@ public class WorkoutInfo {
         return "WorkoutInfo{" +
                 "name='" + name + '\'' +
                 ", area='" + area + '\'' +
-                ", specificArea='" + specificArea + '\'' +
-                ", colour='" + colour + '\'' +
-                ", timeAdded='" + timeAdded + '\'' +
                 ", barType='" + barType + '\'' +
                 '}';
     }

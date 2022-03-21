@@ -7,7 +7,7 @@ public class AllWorkouts {
 // bar types: low bar, middle bar, high bar, parallel bar, null
 
     public static ArrayList<WorkoutInfo> add() { //name, area, specificArea, colour, timeAdded
-        ArrayList<WorkoutInfo> workout = new ArrayList<WorkoutInfo>();
+        ArrayList<WorkoutInfo> workout = new ArrayList<>();
 
         // --- arm workouts ---
         // - triceps
@@ -16,28 +16,28 @@ public class AllWorkouts {
         workout.add(new WorkoutInfo("tricep extension", "arm", "triceps","Blue Diamond Tier", "12/25/2021", null));
 
         // - biceps
-        workout.add(new WorkoutInfo("pull-up", "arm", "biceps", "floor" ,"Blue Diamond Tier", "12/25/2021"));
-        workout.add(new WorkoutInfo("reverse australian chin-up", "arm", "biceps", "floor" ,"Blue Diamond Tier", "12/25/2021"));
-        workout.add(new WorkoutInfo("bench dip", "arm", "triceps", "floor" ,"Blue Diamond Tier", "12/25/2021"));
+        workout.add(new WorkoutInfo("pull-up", "arm", "biceps", "Blue Diamond Tier","12/25/2021", "high bar"));
+        workout.add(new WorkoutInfo("reverse australian chin-up", "arm", "biceps", "Blue Diamond Tier" ,"12/25/2021", "middle bar"));
+        workout.add(new WorkoutInfo("bench dip", "arm", "biceps", "Blue Diamond Tier" ,"12/25/2021", "middle bar"));
 
         // - deltoids (shoulder)
         workout.add(new WorkoutInfo("tucked front lever", "arm", "deltoids","Blue Diamond Tier", "12/25/2021", "high bar"));
-        workout.add(new WorkoutInfo("pike push-up", "arm", "deltoids","Blue Diamond Tier", "12/25/2021", "high bar"));
+        workout.add(new WorkoutInfo("declined pike push-up (knees)", "arm", "deltoids","Blue Diamond Tier", "12/25/2021", null));
 
 
         // --- chest workouts ---
         // - pectoral muscle (whole chest)
-        workout.add(new WorkoutInfo("muscle up dip", "chest", "deltoids","Blue Diamond Tier", "12/25/2021", "high bar"));
-        workout.add(new WorkoutInfo("parallel bar dip", "chest", "deltoids","Blue Diamond Tier", "12/25/2021", "high bar"));
-        workout.add(new WorkoutInfo("archer push-up", "chest", "deltoids","Blue Diamond Tier", "12/25/2021", "high bar"));
-        workout.add(new WorkoutInfo("elevated push-up", "chest", "deltoids","Blue Diamond Tier", "12/25/2021", "high bar"));
+        workout.add(new WorkoutInfo("muscle up dip", "chest", "pectoral","Blue Diamond Tier", "12/25/2021", "high bar"));
+        workout.add(new WorkoutInfo("parallel bar dip", "chest", "pectoral","Blue Diamond Tier", "12/25/2021", "high bar"));
+        workout.add(new WorkoutInfo("archer push-up", "chest", "pectoral","Blue Diamond Tier", "12/25/2021", "high bar"));
+        workout.add(new WorkoutInfo("elevated push-up", "chest", "pectoral","Blue Diamond Tier", "12/25/2021", "high bar"));
 
 
         // --- back workouts ---
         // - traps
-        workout.add(new WorkoutInfo("wide australian rows", "back", "deltoids","Blue Diamond Tier", "12/25/2021", "high bar"));
-        workout.add(new WorkoutInfo("tucked front lever", "back", "deltoids","Blue Diamond Tier", "12/25/2021", "high bar"));
-        workout.add(new WorkoutInfo("commando pull-up", "back", "deltoids","Blue Diamond Tier", "12/25/2021", "high bar"));
+        workout.add(new WorkoutInfo("wide australian rows", "back", "traps","Blue Diamond Tier", "12/25/2021", "high bar"));
+        workout.add(new WorkoutInfo("tucked front lever", "back", "traps","Blue Diamond Tier", "12/25/2021", "high bar"));
+        workout.add(new WorkoutInfo("commando pull-up", "back", "traps","Blue Diamond Tier", "12/25/2021", "high bar"));
 
         // - lats
 
@@ -46,21 +46,22 @@ public class AllWorkouts {
 
         // --- abs workouts ---
         // - abs
-        workout.add(new WorkoutInfo("L-hang", "abs", "deltoids","Blue Diamond Tier", "12/25/2021", "high bar"));
-        workout.add(new WorkoutInfo("hanging leg raise", "abs", "deltoids","Blue Diamond Tier", "12/25/2021", "high bar"));
-        workout.add(new WorkoutInfo("L-sit", "abs", "deltoids","Blue Diamond Tier", "12/25/2021", "high bar"));
-        workout.add(new WorkoutInfo("plank", "abs", "deltoids","Blue Diamond Tier", "12/25/2021", "high bar"));
+        workout.add(new WorkoutInfo("L-hang", "abs", "abs","Blue Diamond Tier", "12/25/2021", "high bar"));
+        workout.add(new WorkoutInfo("hanging leg raise", "abs", "abs","Blue Diamond Tier", "12/25/2021", "high bar"));
+        workout.add(new WorkoutInfo("L-sit", "abs", "abs","Blue Diamond Tier", "12/25/2021", "low bar"));
+        workout.add(new WorkoutInfo("plank", "abs", "abs","Blue Diamond Tier", "12/25/2021", null));
+        workout.add(new WorkoutInfo("hollow body crunch", "abs", "abs","Blue Diamond Tier", "02/15/2022", null));
 
         // - obliques
-        workout.add(new WorkoutInfo("plank side-to-side", "abs", "deltoids","Blue Diamond Tier", "12/25/2021", "high bar"));
-        workout.add(new WorkoutInfo("commando pull-up", "abs", "deltoids","Blue Diamond Tier", "12/25/2021", "high bar"));
-        workout.add(new WorkoutInfo("corner raises", "abs", "deltoids","Blue Diamond Tier", "12/25/2021", "high bar"));
+        workout.add(new WorkoutInfo("plank side-to-side", "abs", "obliques","Blue Diamond Tier", "12/25/2021", null));
+        workout.add(new WorkoutInfo("corner raises", "abs", "obliques","Blue Diamond Tier", "12/25/2021", "high bar"));
+        workout.add(new WorkoutInfo("side plank raise", "abs", "obliques","Blue Diamond Tier", "02/15/2022", null));
 
         return workout;
     }
 
     public static ArrayList<WorkoutInfo> progressionOfMove(String move) {
-        ArrayList<WorkoutInfo> workout = new ArrayList<WorkoutInfo>();
+        ArrayList<WorkoutInfo> workout = new ArrayList<>();
 
         if (move.equals("handstand push-up")) {
             workout.add(new WorkoutInfo("handstand", null, null,null, null, "high bar"));

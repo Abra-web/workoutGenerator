@@ -28,7 +28,14 @@ public class Main {
         order.add("arm");
         order.add("chest");
         order.add("back");
-        Collections.shuffle(order);
+
+        boolean result = true;
+        while(result) {
+            Collections.shuffle(order);
+            if (!(order.get(0) == order.get(1) || order.get(1) == order.get(2) || order.get(2) == order.get(3))) {
+                result = false;
+            }
+        }
 
         System.out.println(order);
         for (int i=0; i < allWorkouts.size(); i++) {
@@ -73,14 +80,24 @@ public class Main {
         for (int i=0; i < 3; i++) {
             random = rnd.nextInt(abs.size());
             answer.add(abs.get(random));
+            abs.remove(random);
         }
 
         return answer;
     }
 
     public static void print(ArrayList<WorkoutInfo> theList) {
+        System.out.println("                               New workout Generated");
         for (int i=0; i < theList.size(); i++) {
-            System.out.println(theList.get(i).toString());
+            if (i%2 == 0 && i != 10) {
+                System.out.println("------------------------------------------------------------------------------------");
+                System.out.println(theList.get(i).area);
+                System.out.println(" | " + theList.get(i).toString() + " | ");
+            } else if (i == 11) {
+                System.out.println("------------------------------------------------------------------------------------");
+            } else {
+                System.out.println(" | " + theList.get(i).toString() + " | ");
+            }
         }
     }
 
