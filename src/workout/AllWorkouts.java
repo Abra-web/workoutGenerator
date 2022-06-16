@@ -12,17 +12,18 @@ public class AllWorkouts {
         // --- arm workouts ---
         // - triceps
         workout.add(new WorkoutInfo("push up", "arm", "triceps", "Blue Diamond Tier", "12/25/2021" ,null));
-        workout.add(new WorkoutInfo("diamond push up", "arm", "triceps","Blue Diamond Tier", "12/25/2021", null));
+        workout.add(new WorkoutInfo("diamond push up", "arm", "triceps","Red Ruby Tier", "12/25/2021", null));
         workout.add(new WorkoutInfo("tricep extension", "arm", "triceps","Blue Diamond Tier", "12/25/2021", null));
+        workout.add(new WorkoutInfo("pseudo-planche push-up", "arm", "triceps","Red Ruby Tier", "12/25/2021", null));
 
         // - biceps
-        workout.add(new WorkoutInfo("pull-up", "arm", "biceps", "Blue Diamond Tier","12/25/2021", "high bar"));
+        workout.add(new WorkoutInfo("chin-up", "arm", "biceps", "Blue Diamond Tier","12/25/2021", "high bar"));
         workout.add(new WorkoutInfo("reverse australian chin-up", "arm", "biceps", "Blue Diamond Tier" ,"12/25/2021", "middle bar"));
         workout.add(new WorkoutInfo("bench dip", "arm", "biceps", "Blue Diamond Tier" ,"12/25/2021", "middle bar"));
+        workout.add(new WorkoutInfo("neutral grip pull-up", "arm", "biceps", "Blue Diamond Tier" ,"12/25/2021", "middle bar"));
 
         // - deltoids (shoulder)
-        workout.add(new WorkoutInfo("tucked front lever", "arm", "deltoids","Blue Diamond Tier", "12/25/2021", "high bar"));
-        workout.add(new WorkoutInfo("declined pike push-up (knees)", "arm", "deltoids","Blue Diamond Tier", "12/25/2021", null));
+        workout.add(new WorkoutInfo("declined pike push-up (knees)", "arm", "deltoids","Red Ruby Tier", "12/25/2021", null));
 
 
         // --- chest workouts ---
@@ -31,6 +32,7 @@ public class AllWorkouts {
         workout.add(new WorkoutInfo("parallel bar dip", "chest", "pectoral","Blue Diamond Tier", "12/25/2021", "high bar"));
         workout.add(new WorkoutInfo("archer push-up", "chest", "pectoral","Blue Diamond Tier", "12/25/2021", "high bar"));
         workout.add(new WorkoutInfo("elevated push-up", "chest", "pectoral","Blue Diamond Tier", "12/25/2021", "high bar"));
+        workout.add(new WorkoutInfo("type-writer push-up", "chest", "pectoral","Blue Diamond Tier", "12/25/2021", "high bar"));
 
 
         // --- back workouts ---
@@ -38,6 +40,7 @@ public class AllWorkouts {
         workout.add(new WorkoutInfo("wide australian rows", "back", "traps","Blue Diamond Tier", "12/25/2021", "high bar"));
         workout.add(new WorkoutInfo("tucked front lever", "back", "traps","Blue Diamond Tier", "12/25/2021", "high bar"));
         workout.add(new WorkoutInfo("commando pull-up", "back", "traps","Blue Diamond Tier", "12/25/2021", "high bar"));
+        workout.add(new WorkoutInfo("pull to belly", "back", "traps","Blue Diamond Tier", "12/25/2021", "high bar"));
 
         // - lats
 
@@ -50,7 +53,6 @@ public class AllWorkouts {
         workout.add(new WorkoutInfo("hanging leg raise", "abs", "abs","Blue Diamond Tier", "12/25/2021", "high bar"));
         workout.add(new WorkoutInfo("L-sit", "abs", "abs","Blue Diamond Tier", "12/25/2021", "low bar"));
         workout.add(new WorkoutInfo("plank", "abs", "abs","Blue Diamond Tier", "12/25/2021", null));
-        workout.add(new WorkoutInfo("hollow body crunch", "abs", "abs","Blue Diamond Tier", "02/15/2022", null));
 
         // - obliques
         workout.add(new WorkoutInfo("plank side-to-side", "abs", "obliques","Blue Diamond Tier", "12/25/2021", null));
