@@ -5,16 +5,13 @@ public class WorkoutInfo {
     public String area;
     public String specificArea;
     public String colour;
-    public String timeAdded;
-    // public String itemNeeded;
     public String barType;
 
-    public WorkoutInfo(String name, String area, String specificArea, String colour, String timeAdded, String barType) {
+    public WorkoutInfo(String name, String area, String specificArea, String colour, String barType) {
         this.name = name;
         this.area = area;
         this.specificArea = specificArea;
         this.colour = colour;
-        this.timeAdded = timeAdded;
         this.barType = barType;
     }
 
@@ -41,10 +38,6 @@ public class WorkoutInfo {
 
     public String getColour() {
         return colour;
-    }
-
-    public String getTimeAdded() {
-        return timeAdded;
     }
 
     public String getBarType() {
