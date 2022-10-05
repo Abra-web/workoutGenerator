@@ -26,11 +26,12 @@ public class AllWorkouts {
         // - biceps
         workout.add(new WorkoutInfo("chin-up", "arm", "biceps", "Blue Diamond Tier", "high bar"));
         workout.add(new WorkoutInfo("reverse australian chin-up", "arm", "biceps", "Blue Diamond Tier" , "middle bar"));
-        workout.add(new WorkoutInfo("bench dip", "arm", "biceps", "Blue Diamond Tier" , "middle bar"));
+        // workout.add(new WorkoutInfo("bench dip", "arm", "biceps", "Blue Diamond Tier" , "middle bar"));
         workout.add(new WorkoutInfo("neutral grip pull-up", "arm", "biceps", "Blue Diamond Tier" , "middle bar"));
 
         // - deltoids (shoulder)
         workout.add(new WorkoutInfo("declined pike push-up (knees)", "arm", "deltoids","Red Ruby Tier", null));
+        workout.add(new WorkoutInfo("tucked planche", "arm", "deltoids","Red Ruby Tier", null));
 
 
         // --- chest workouts ---
@@ -63,7 +64,7 @@ public class AllWorkouts {
         workout.add(new WorkoutInfo("plank", "abs", "abs","Blue Diamond Tier", null));
 
         // - obliques
-        workout.add(new WorkoutInfo("plank side-to-side", "abs", "obliques","Blue Diamond Tier", null));
+        // workout.add(new WorkoutInfo("plank side-to-side", "abs", "obliques","Blue Diamond Tier", null));
         workout.add(new WorkoutInfo("corner raises", "abs", "obliques","Blue Diamond Tier", "high bar"));
         workout.add(new WorkoutInfo("side plank raise", "abs", "obliques","Blue Diamond Tier", null));
 
@@ -84,7 +85,19 @@ public class AllWorkouts {
             workout.add(new WorkoutInfo("straddle front lever", null, null,null, "high bar"));
             workout.add(new WorkoutInfo("half-lay front lever", null, null,null, "high bar"));
             workout.add(new WorkoutInfo("front lever", null, null,null, "high bar"));
+        } else if (move.equals("planche")) {
+            workout.add(new WorkoutInfo("tucked planche", null, null,null, "high bar"));
+            workout.add(new WorkoutInfo("advanced tucked planche", null, null,null, "high bar"));
+            workout.add(new WorkoutInfo("frog planche", null, null,null, "high bar")); // similar to advanced tuck planche but legs apart
+            workout.add(new WorkoutInfo("piked straddle planche", null, null,null, "high bar"));
+            workout.add(new WorkoutInfo("straddle planche", null, null,null, "high bar"));
+            workout.add(new WorkoutInfo("one-leg planche", null, null,null, "high bar"));
+            workout.add(new WorkoutInfo("Half-lay planche", null, null,null, "high bar"));
+            workout.add(new WorkoutInfo("full planche", null, null,null, "high bar"));
+
+
         }
+
         return null;
     }
 //        public static ArrayList<String> addAbs() {

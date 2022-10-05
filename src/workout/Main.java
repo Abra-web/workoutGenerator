@@ -131,12 +131,12 @@ public class Main {
                 } else if (tempArea.equals("abs")) {
                     currentANSI = ANSI_GREEN;
                 }
-                System.out.println(currentANSI   + theList.get(i).area + ANSI_RESET);
-                System.out.println(currentANSI  + " | " + theList.get(i).toString() + " | " + ANSI_RESET);
+                System.out.println(currentANSI   + theList.get(i).getArea() + ANSI_RESET);
+                System.out.println(currentANSI  + " | " + theList.get(i).getName() + " | " + ANSI_RESET);
             } else if (i == 11) {
                 System.out.println("------------------------------------------------------------------------------------");
             } else {
-                System.out.println(currentANSI +" | " + theList.get(i).toString() + " | " + ANSI_RESET);
+                System.out.println(currentANSI +" | " + theList.get(i).getName() + " | " + ANSI_RESET);
                 if (i == 3) {
                     System.out.println(ANSI_GREEN  + "------------------------------------------------------------------------------------" + ANSI_RESET);
                     System.out.println("Bonus :)");
