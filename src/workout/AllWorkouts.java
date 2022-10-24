@@ -37,7 +37,7 @@ public class AllWorkouts {
         // --- chest workouts ---
         // - pectoral muscle (whole chest)
         workout.add(new WorkoutInfo("muscle up dip", "chest", "pectoral","Blue Diamond Tier", "high bar"));
-        workout.add(new WorkoutInfo("parallel bar dip", "chest", "pectoral","Blue Diamond Tier", "high bar"));
+        workout.add(new WorkoutInfo("parallel bar dip + 5kg", "chest", "pectoral","Blue Diamond Tier", "high bar"));
         workout.add(new WorkoutInfo("archer push-up", "chest", "pectoral","Blue Diamond Tier", "high bar"));
         workout.add(new WorkoutInfo("elevated push-up", "chest", "pectoral","Blue Diamond Tier", "high bar"));
         workout.add(new WorkoutInfo("type-writer push-up", "chest", "pectoral","Blue Diamond Tier", "high bar"));
@@ -47,7 +47,7 @@ public class AllWorkouts {
         // - traps
         workout.add(new WorkoutInfo("wide australian rows", "back", "traps","Blue Diamond Tier", "high bar"));
         workout.add(new WorkoutInfo("horizontal rows", "back", "traps","Blue Diamond Tier", "high bar"));
-        workout.add(new WorkoutInfo("tucked front lever", "back", "traps","Blue Diamond Tier", "high bar"));
+        workout.add(new WorkoutInfo("advanced tucked front lever", "back", "traps","Blue Diamond Tier", "high bar"));
         workout.add(new WorkoutInfo("commando pull-up", "back", "traps","Blue Diamond Tier", "high bar"));
         workout.add(new WorkoutInfo("pull to belly", "back", "traps","Blue Diamond Tier", "high bar"));
 
