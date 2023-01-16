@@ -29,7 +29,7 @@ public class Main {
     public static ArrayList<WorkoutInfo> workoutPlan(ArrayList<WorkoutInfo> allWorkouts) {
         Random rnd = new Random();
         Date d = new Date();
-        dayNum = d.getDay();
+        dayNum = d.getDay(); // 1:monday, 3:wednesday, 5:friday
         int random = 0;
 
         ArrayList<WorkoutInfo> answer = new ArrayList<>();
@@ -142,10 +142,14 @@ public class Main {
                     System.out.println("Bonus :)");
                     if (dayNum == 1) {
                         System.out.println(" | Deadlift: 4 x 8-5 | ");
+                        System.out.println(" | Lateral Raise: 16 - 12 - 8 - 12 - 16| ");
+
                     } else if (dayNum == 3) {
                         System.out.println(" | Bench Press: 4 x 10-8 | ");
                     } else if (dayNum == 5) {
                         System.out.println(" | Squat: 4 x 10-8 | ");
+                        System.out.println(" | Incline db bp: 4 x 12-8 | ");
+
                     }
                 }
             }

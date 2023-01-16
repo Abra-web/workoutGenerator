@@ -37,7 +37,7 @@ public class AllWorkouts {
         // --- chest workouts ---
         // - pectoral muscle (whole chest)
         workout.add(new WorkoutInfo("muscle up dip", "chest", "pectoral","Blue Diamond Tier", "high bar"));
-        workout.add(new WorkoutInfo("parallel bar dip + 5kg", "chest", "pectoral","Blue Diamond Tier", "high bar"));
+        workout.add(new WorkoutInfo("parallel bar dip + 10kg", "chest", "pectoral","Blue Diamond Tier", "high bar"));
         workout.add(new WorkoutInfo("archer push-up", "chest", "pectoral","Blue Diamond Tier", "high bar"));
         workout.add(new WorkoutInfo("elevated push-up", "chest", "pectoral","Blue Diamond Tier", "high bar"));
         workout.add(new WorkoutInfo("type-writer push-up", "chest", "pectoral","Blue Diamond Tier", "high bar"));
