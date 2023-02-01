@@ -115,7 +115,6 @@ public class main_vol2 {
             abs.remove(random);
         }
 
-        System.out.println(answer);
         return answer;
     }
 
