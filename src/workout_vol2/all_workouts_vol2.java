@@ -37,7 +37,7 @@ public class all_workouts_vol2 {
         workout.add(new workout_info_vol2("parallel bar dip + 10kg", "chest", "pectoral","Blue Diamond Tier", "high bar"));
         workout.add(new workout_info_vol2("archer push-up", "chest", "pectoral","Blue Diamond Tier", "high bar"));
         workout.add(new workout_info_vol2("elevated push-up", "chest", "pectoral","Blue Diamond Tier", "high bar"));
-        workout.add(new workout_info_vol2("type-writer push-up", "chest", "pectoral","Blue Diamond Tier", "high bar"));
+        // workout.add(new workout_info_vol2("type-writer push-up", "chest", "pectoral","Blue Diamond Tier", "high bar"));
 
 
         // --- back workouts ---
@@ -45,7 +45,7 @@ public class all_workouts_vol2 {
         workout.add(new workout_info_vol2("wide australian rows", "back", "traps","Blue Diamond Tier", "high bar"));
         workout.add(new workout_info_vol2("horizontal rows", "back", "traps","Blue Diamond Tier", "high bar"));
         workout.add(new workout_info_vol2("commando pull-up", "back", "traps","Blue Diamond Tier", "high bar"));
-        workout.add(new workout_info_vol2("pull to belly", "back", "traps","Blue Diamond Tier", "high bar"));
+        // workout.add(new workout_info_vol2("pull to belly", "back", "traps","Blue Diamond Tier", "high bar"));
         // - lats
         // workout.add(new workout_info_vol2("Upside down deadlift", "back", "lats","Blue Diamond Tier", "high bar"));
         // - rhomboids
