@@ -144,10 +144,10 @@ public class main_vol2 {
                 System.out.println("Bonus :)");
                 if (dayNum == 1) {
                     System.out.println(" | Deadlift: 4 x 8-5 | ");
-                    System.out.println(" | Lateral Raise: 16 - 12 - 8 - 12 - 16| ");
+                    System.out.println(" | Lateral Raise: 16 - 12 - 8 - 12 - 16 | ");
                 } else if (dayNum == 3) {
                     System.out.println(" | Bench Press: 4 x 10-8 | ");
-                    System.out.println(" | Shoulder Shrugs: 4 x ?? | ");
+                    System.out.println(" | db Shrugs: 16 - 12 - 8 - 12 - 16 | ");
                 } else if (dayNum == 5) {
                     System.out.println(" | Squat: 4 x 10-8 | ");
                     System.out.println(" | Incline db bp: 4 x 12-8 | ");
